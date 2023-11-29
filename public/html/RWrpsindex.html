@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/RWrpsstyle.css">
+    <title>RW Rock Paper Scissors Game 11/07/2023</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Rock Paper Scissors</h1>
+
+        <div class="selection-row">
+            <div class="rock-area">
+                <img class="rock-img" src="https://media.cnn.com/api/v1/images/stellar/prod/190828151832-amy-lee-lummus-rock-paper-scissors-high-res.jpg?q=w_1600,h_901,x_0,y_0,c_fill" alt="rock-hand-gesture">
+                <br>
+                <div class="selector">
+                    <input type="radio" id="rock" name="rock" value="rock">
+                </div>
+            </div>
+
+            <div class="paper-area">
+                <img class="paper-img" src="https://static.vecteezy.com/system/resources/previews/011/081/807/original/notebook-sheet-white-blank-page-paper-list-from-notepad-flat-cartoon-icon-vector.jpg" alt="piece-of-paper">
+                <br>
+                <div class="selector">
+                    <input type="radio" id="paper" name="paper" value="paper">
+                </div>
+            </div>
+
+            <div class="scissors-area">
+                <img class="scissors-img" src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-009-512.png" alt="cartoon-scissors">
+                <br>
+                <div class="selector">
+                    <input type="radio" id="scissors" name="scissors" value="scissors">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="submit-button">
+            <button onclick="assess()">Submit</button>
+        </div>
+    </div>
+
+
+
+    <script src="/js/RWrpsscript.js"></script>
+</body>
+</html>

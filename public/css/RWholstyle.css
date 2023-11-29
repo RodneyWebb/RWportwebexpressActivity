@@ -1,0 +1,23 @@
+body {
+    background-color: greenyellow;
+}
+
+.outer-div {
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-guess {
+    display: flex;
+    gap: 10px;
+}

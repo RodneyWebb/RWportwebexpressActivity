@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/RWhstyle.css">
+    <title>RW Hangman Game 11/06/2023</title>
+</head>
+<body>
+    <h1 class="title">WEBBMAN</h1>
+    <p class="description">This game is similar to 'Hangman,' with the exception that incorrect guesses create a spider web. Please use the alphabet below to guess each word, and click 'Hint' for clues.</p> 
+    <p class="description">Good luck, and try not to get caught in the 'Webb!'</p>
+
+    
+
+    <div class="alphabet">
+        <button onclick="guess('A')" class="letters">A</button>
+        <button onclick="guess('B')" class="letters">B</button>
+        <button onclick="guess('C')" class="letters">C</button>
+        <button onclick="guess('D')" class="letters">D</button>
+        <button onclick="guess('E')" class="letters">E</button>
+        <button onclick="guess('F')" class="letters">F</button>
+        <button onclick="guess('G')" class="letters">G</button>
+        <button onclick="guess('H')" class="letters">H</button>
+        <button onclick="guess('I')" class="letters">I</button>
+        <button onclick="guess('J')" class="letters">J</button>
+        <button onclick="guess('K')" class="letters">K</button>
+        <button onclick="guess('L')" class="letters">L</button>
+        <button onclick="guess('M')" class="letters">M</button>
+        <button onclick="guess('N')" class="letters">N</button>
+        <button onclick="guess('O')" class="letters">O</button>
+        <button onclick="guess('P')" class="letters">P</button>
+        <button onclick="guess('Q')" class="letters">Q</button>
+        <button onclick="guess('R')" class="letters">R</button>
+        <button onclick="guess('S')" class="letters">S</button>
+        <button onclick="guess('T')" class="letters">T</button>
+        <button onclick="guess('U')" class="letters">U</button>
+        <button onclick="guess('V')" class="letters">V</button>
+        <button onclick="guess('W')" class="letters">W</button>
+        <button onclick="guess('X')" class="letters">X</button>
+        <button onclick="guess('Y')" class="letters">Y</button>
+        <button onclick="guess('Z')" class="letters">Z</button>
+    </div>
+
+    <div id="word-container">
+        <div class="guess-word">
+            <p>Guess the word:</p>
+            <p id="word"></p>
+        </div>
+    
+        <div class="hint-word">
+            <p>Hint:</p>
+            <p id="hint"></p>
+        </div>
+        
+        <div class="lives-area">
+            <p>Lives Left:</p>
+            <p id="lives"></p>
+        </div>
+    </div>
+
+    <div>    
+        <img class="spiders-image" src="https://static.vecteezy.com/system/resources/previews/028/248/499/original/hand-drawn-kids-drawing-cartoon-illustration-cute-black-outline-spider-icon-isolated-on-white-background-vector.jpg" alt="Cartoon-Spiders">
+    </div>
+
+
+
+
+    <script src="/js/RWhscript.js"></script>
+</body>
+</html>

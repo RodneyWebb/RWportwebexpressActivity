@@ -1,0 +1,51 @@
+body {
+    background-color: gainsboro;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alphabet {
+    display: flex;
+}
+
+.letters {
+    height: 50px;
+    width: 50px;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+p {
+    display: inline;
+}
+
+#word-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.letter-dash {
+    color: blueviolet;
+}
+
+.spiders-image {
+    height: 200px;
+    width: 200px;
+}
